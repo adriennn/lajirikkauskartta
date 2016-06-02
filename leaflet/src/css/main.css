@@ -1,0 +1,138 @@
+html {
+    height: 100%
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+p, a, h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+
+#map {
+    bottom:0;
+    position:absolute;
+    top:50px;
+    width:100%;
+    z-index: auto;
+}
+
+.fa {
+    vertical-align: middle;
+}
+
+/* Legend */
+.legend {
+    line-height: 18px;
+    color: #555;
+    background-color: rgba(255,255,255,0.8);
+     margin: 10px 20px;
+    padding: 5px 5px;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+/* Popups styling */
+.leaflet-popup-content-wrapper {
+    border-radius: 0 !important;
+}
+
+/* Infobox styling */
+.infobox {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: rgba(255,255,255,0.8);
+    color: #000;
+    margin: 10px 20px;
+    padding: 10px 10px;
+}
+
+/* Custom leaflet styles */
+
+
+/* Custom navbar styles*/
+.navbar-default {
+  background-color: #6fda2b !important;
+  border: none;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff !important;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #4a4a4a !important;
+}
+.navbar-default .navbar-text {
+  color: #ffffff !important;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff !important;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #4a4a4a !important;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #4a4a4a !important;
+  background-color: #59a827 !important;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #4a4a4a !important;
+  background-color: #59a827 !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: #59a827 !important;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #59a827 !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff !important;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff !important;
+}
+.navbar-default .navbar-link {
+  color: #ffffff !important;
+}
+.navbar-default .navbar-link:hover {
+  color: #4a4a4a !important;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff !important;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #4a4a4a !important;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #4a4a4a !important;
+    background-color: #59a827 !important;
+  }
+}
